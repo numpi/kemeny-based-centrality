@@ -1,0 +1,10 @@
+function plotgraph(G,titl,filename)
+plot(G,'NodeLabel',{},'MarkerSize',10, 'XData', G.Nodes.x, 'YData', G.Nodes.y, 'LineWidth', 3);
+axis tight
+axis equal
+xticks([]);
+yticks([]);
+fig = gcf;
+fig.Position(3:4) = fig.Position(3:4) * 3;
+title(titl,'FontSize',24);
+exportgraphics(gcf, filename, 'ContentType','vector')
