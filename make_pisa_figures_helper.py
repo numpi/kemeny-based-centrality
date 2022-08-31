@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Script to do the Python part of make_pisa_figures. Must be run before the corresponding Matlab file.
+
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np

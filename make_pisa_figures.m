@@ -1,3 +1,5 @@
+% script to make figures of various centrality measures on the map of central Pisa.
+
 [G, H] = read_graphs('pisa_cropped');
 G.Edges.Length = hypot(G.Edges.x1-G.Edges.x2, G.Edges.y1-G.Edges.y2); weights = exp(-G.Edges.Length/max(G.Edges.Length));
 

@@ -1,5 +1,4 @@
 % Script for drawing figure 6.2 concerning a disconnected graph
-% The functions kementrality_all and plotgraphs are needed
 
 % Creating the first barbell
 m = 8;

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 """
+Functions to read our csv graph files into Networkx.
 
 Sample usage:
 ```

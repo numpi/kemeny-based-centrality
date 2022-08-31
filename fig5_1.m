@@ -1,7 +1,5 @@
-% Script for drawing figure 5.1 concerning a graph that contains some
+% Script for drawing figure 5.1 concerning graphs that contains some
 % cut-edges
-% The functions kementrality_all and plotgraphs are needed
-
 
 a=zeros(12,12);
 a(1,2) = 1; a(1,3) = 1;  a(1,4) = 1;  a(2,3) = 1;  a(2,4) = 1;

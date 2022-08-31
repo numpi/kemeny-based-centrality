@@ -1,4 +1,7 @@
 function plotgraph_tridiag(G,titl,filename)
+
+% function to plot a weighted graph and save it to a filename, with minor tweaks for our tridiagonal graph
+
 v = G.Edges.Weight; 
 LWidths = rescale(v,0.5,3);
 plot(G,'EdgeCData',v,'LineWidth',LWidths,'NodeLabel',{},'MarkerSize',5, 'XData', 1:6, 'YData', zeros(1,6));

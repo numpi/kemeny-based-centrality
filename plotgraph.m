@@ -1,4 +1,7 @@
 function plotgraph(G,titl,filename)
+
+% function to plot a weighted graph and save it to a file
+
 v = G.Edges.Weight; 
 LWidths = rescale(v,1,5);
 plot(G,'EdgeCData',v,'LineWidth',LWidths,'NodeLabel',{},'MarkerSize',5);
